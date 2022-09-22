@@ -16,8 +16,8 @@ function isLeapYear(year) {
 }
 
 function isJanFeb(month) {
-    let imputMonth = capitalize(month);
-    if (imputMonth === "January" || imputMonth === "February") {
+    let inputMonth = capitalize(month);
+    if (inputMonth === "January" || inputMonth === "February") {
         return true;
     } else {
         return false;
